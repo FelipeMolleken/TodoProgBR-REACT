@@ -1,0 +1,101 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+    color: white;
+}
+
+.done {
+    /* text-decoration: line-through; */
+    background-color: rgb(36, 158, 207);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    box-shadow: 0 2px 7px 1px skyblue;
+}
+.card:hover {
+    box-shadow: 0 2px 7px 1px rgb(36, 158, 207);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 25px;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.049);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardModal {
+    padding: 30px;
+    background-color: rgb(36, 51, 66);
+    ;
+}
+
+.cardModal button {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+    margin-left: 5px;
+}
+
+input {
+    background-color: skyblue;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    background-color: skyblue;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(36, 158, 207);
+}
+
+button img {
+    width: 30px;
+    padding: 3px;
+}
